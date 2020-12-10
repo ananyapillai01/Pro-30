@@ -17,8 +17,6 @@ function setup()
     engine = Engine.create();
     world = engine.world;
 
-   
-  
     polygon = Bodies.circle(50, 200, 20);
     
     World.add(world, polygon);
